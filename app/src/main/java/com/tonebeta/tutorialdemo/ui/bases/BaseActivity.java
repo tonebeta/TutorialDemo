@@ -4,11 +4,15 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
+import com.tonebeta.tutorialdemo.model.CommonConstants;
+
 /**
  * Created by 109890 on 2018/3/4.
  */
 
-public abstract class BaseActivity extends AppCompatActivity {
+public abstract class BaseActivity extends AppCompatActivity implements CommonConstants {
+
+    protected final String TAG = getClass().getSimpleName();
 
     protected abstract int getLayoutId();
     protected abstract void findViews();

@@ -4,6 +4,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
+import com.tonebeta.tutorialdemo.ui.fragments.UiInstructionPage;
+
 import java.util.List;
 
 /**
@@ -21,8 +23,7 @@ public class InstructionPageAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-
-        return null;
+        return UiInstructionPage.newInstance(indexList.get(position));
     }
 
     @Override

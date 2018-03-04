@@ -78,40 +78,11 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
-    <style name="Anim.DialogFragment" parent="Animation.AppCompat.Dialog">
-        <item name="android:windowEnterAnimation">@anim/dialog_open</item>
-        <item name="android:windowExitAnimation">@anim/dialog_close</item>
-    </style>
-
-    <style name="Anim.DialogFragment.ExitOnly" parent="Animation.AppCompat.Dialog">
-        <item name="android:windowExitAnimation">@anim/dialog_close</item>
-    </style>
 
     <style name="NumberPickerStyle">
         <item name="android:textSize">@dimen/font_text_size_m</item>
     </style>
 
-    <!-- Animation for PopupWindow -->
-    <style name="PopWindowExpands_FromTop">
-        <item name="android:windowEnterAnimation">@anim/window_expand_from_top</item>
-        <item name="android:windowExitAnimation">@anim/window_collapse_to_top</item>
-    </style>
-
-    <style name="PopWindowExpands_FromBottom">
-        <item name="android:windowEnterAnimation">@anim/window_expand_from_bottom</item>
-        <item name="android:windowExitAnimation">@anim/window_collapse_to_bottom</item>
-    </style>
-
-    <style name="PopWindowExpands_FromCenterBottom">
-        <item name="android:windowEnterAnimation">@anim/window_expand_from_center_bottom</item>
-        <item name="android:windowExitAnimation">@anim/window_collapse_to_center_bottom</item>
-    </style>
-
-    <style name="PopWindowExpands_FromLeft">
-        <item name="android:windowEnterAnimation">@anim/window_expand_from_left</item>
-        <item name="android:windowExitAnimation">@anim/window_collapse_to_left</item>
-    </style>
-    <!-- Animation for PopupWindow -->
 
     <style name="ActivityDialogStyle" parent="Base.Theme.AppCompat.Dialog">
         <item name="windowActionBar">false</item>

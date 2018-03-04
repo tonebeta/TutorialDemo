@@ -10,9 +10,17 @@ import android.support.v7.app.AppCompatActivity;
 
 public abstract class BaseActivity extends AppCompatActivity {
 
+    protected abstract int getLayoutId();
+    protected abstract void findViews();
+    // 宣告抽象的進入點
+    protected abstract void init();
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(getLayoutId());
+        findViews();
+        init();
     }
 
     @Override

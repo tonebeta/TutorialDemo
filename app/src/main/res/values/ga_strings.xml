@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Screen Name -->
+    <string name="ga_page_expert_plan">達人推薦：</string>
+    <string name="ga_page_select_poi_from_map">從地圖點選</string>
+    <string name="ga_page_news">訊息中心</string>
+
+    <!-- Events & Actions -->
+    <string name="ga_event_view_plan">行程檢視</string>
+    <string name="ga_event_copy_plan">行程複製</string>
+    <string name="ga_event_search_place_by_candidates">地點搜尋-從候選清單</string>
+    <string name="ga_event_search_place_by_keyboard">地點搜尋-按鍵盤</string>
+    <string name="ga_event_view_news">查看訊息</string>
+
+</resources>

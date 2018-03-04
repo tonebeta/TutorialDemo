@@ -1,3 +1,393 @@
 <resources>
     <string name="app_name">TutorialDemo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="facebook_app_id">1986004961636666</string>
+    <string name="fb_login_protocol_scheme">fb1986004961636666</string>
+    <string name="google_server_client_key">308413304373-djv791gub5g5h5jehl7bm6gfki6g1bbh.apps.googleusercontent.com</string>
+
+    <string name="google_web_api_key">AIzaSyDi8JIfB0JBBgr830O1hyezWy0Uuj0ncOI</string>
+    <string name="google_maps_api_key">AIzaSyBUJCRq1ysATi1u0SYebbrbIUdIUKVFm08</string>
+
+    <!-- Permission Request -->
+    <string name="location_permission_rationale_title">允許裝置存取目前位置</string>
+    <string name="location_permission_rationale_content">允許存取目前位置以使用定位功能，以及獲得完整的服務，如附近景點之類的。</string>
+    <string name="location_permission_denied">位置權限未允許，將無法使部分功能，如地圖或取得目前位置。</string>
+    <string name="camera_permission_rationale_title">允許裝置使用相簿與相機</string>
+    <string name="camera_permission_rationale_content">允許以存取外部圖片檔案，以及取得拍照服務</string>
+    <string name="camera_permission_denied">相簿或相機權限未開啟</string>
+    <string name="camera_permission_must_allowing">無法開啟掃描器，請務必允許相機使用權限！</string>
+    <string name="storage_permission_rationale_title">允許裝置讀取與寫入檔案至儲存空間</string>
+    <string name="storage_permission_rationale_content">允許以將使用者自訂內容儲存至本機上，如我的景點、行程規劃等。</string>
+    <string name="storage_permission_denied">儲存空間讀取或寫入權限未開啟</string>
+    <string name="storage_permission_denied_force_require">儲存空間讀取或寫入權限必須開啟，程式才可繼續使用！</string>
+    <string name="location_permission_required">為了取得周遭景點資訊，請務必允許位置存取權限！</string>
+
+    <!-- GPS Functions -->
+    <string name="gps_unable_to_get_location">無法取得您目前的位置</string>
+    <string name="gps_is_not_enabled">您尚未開啟系統GPS功能，請先開啟。</string>
+
+    <!-- Login and Register -->
+    <string name="login_by_facebook">使用Facebook登入</string>
+    <string name="login_by_google">使用Google+登入</string>
+    <string name="login_input_phone">請輸入您的行動電話</string>
+    <string name="login_require_permission">存取權限</string>
+    <string name="login_require_email">請務必允許email存取權限！</string>
+    <string name="login_require_fb_app_installed">使用Facebook登入，\n必須先行安裝Facebook App。</string>
+    <string name="login_facebook">Facebook</string>
+    <string name="login_facebook_size">大小約 60 MB</string>
+    <string name="login_facebook_lite">Facebook Lite</string>
+    <string name="login_facebook_lite_size">大小約 1.5 MB</string>
+    <string name="login_at_least_select_one">請選擇其中一個版本</string>
+    <string name="login_do_it_now">立即登入</string>
+    <string name="login_skip">略過</string>
+    <string name="login_verify_your_phone">驗證您的行動電話</string>
+    <string name="login_please_input_full_number">請輸入完整的電話號碼</string>
+    <string name="login_please_input_right_number">請輸入正確的電話號碼</string>
+    <string name="login_we_already_send_the_verify_code">我們已經透過簡訊將驗證碼傳至\n%s</string>
+    <string name="login_verify_code_input_hint">請輸入六位數字驗證碼</string>
+    <string name="login_verify_remaining_time">有效剩餘時間</string>
+    <string name="login_resend_verify_code">重新傳送驗證碼</string>
+    <string name="login_verify_code_expired">驗證碼已過期，請重新驗證</string>
+    <string name="login_verify_invalid">驗證碼輸入錯誤！</string>
+    <string name="login_verify">進行驗證</string>
+    <string name="login_verify_did_not_send_yet">驗證碼未發送，請重新輸入電話號碼</string>
+    <string name="login_verify_success">驗證成功！</string>
+    <string name="login_recommendation">推薦碼 (非必填)</string>
+    <string name="login_input_recommendation_is_good_for_you">輸入朋友推薦碼，可享優惠</string>
+    <string name="login_input_recommendation">請輸入推薦碼</string>
+    <string name="register">註冊</string>
+    <string name="register_success">註冊成功！</string>
+    <string name="register_no_such_the_recommendation">查無推薦碼</string>
+    <string name="login_auth_failed">驗證錯誤！請重新登入</string>
+    <string name="login_require_login_first">請先登入</string>
+
+    <!-- NavigationView Menu -->
+    <string name="nav_welcome_title">%s，您好</string>
+    <string name="nav_menu_home">首頁</string>
+    <string name="nav_menu_recommend">推薦中心</string>
+    <string name="nav_menu_order_manage">訂單管理</string>
+    <string name="nav_menu_my_coupon">我的優惠券</string>
+    <string name="nav_menu_favorite">我的收藏</string>
+    <string name="nav_menu_about">關於我們</string>
+    <string name="nav_menu_setting">設定</string>
+    <string name="nav_menu_logout">登出</string>
+
+    <!-- Menu Options -->
+    <string name="menu_edit">編輯</string>
+    <string name="menu_map">地圖模式</string>
+
+    <!-- Common Options -->
+    <string name="confirm">確認</string>
+    <string name="cancel">取消</string>
+    <string name="save">儲存</string>
+    <string name="clear">清除</string>
+    <string name="out_of_memory">Out of Memory!</string>
+    <string name="login_or_register">登入/註冊會員</string>
+    <string name="network_failed_check_connection">無法連至伺服器，請檢查網路連線。</string>
+    <string name="confirm_to_exit">再按一次\'Back\'離開程式</string>
+    <string name="something_wrong">Oops! Something wrong..</string>
+    <string name="dash">－</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">小時</string>
+    <string name="minute">分</string>
+    <string name="unable_to_get_current_position">無法取得目前位置！</string>
+    <string name="network_is_unable_title">網路連線未開啟！</string>
+    <string name="network_is_unable_content">請先開啟網路，不然許多功能都將無法使用。</string>
+    <string name="go_to_setting">前往設定</string>
+    <string name="go_to_wifi_setting">前往WiFi設定</string>
+    <string name="colon">：</string>
+    <string name="basic_time_format">%1$02d:%2$02d</string>
+    <string name="ok">好</string>
+    <string name="exit">離開</string>
+    <string name="google_api_places_unavailable">The Google Places API was UNAVAILABLE!!</string>
+    <string name="nearby_places_empty">無法取得附近景點</string>
+    <string name="nearby_places_no_result">該位置附近無景點！</string>
+    <string name="previous_nearby_places_not_done_yet">上組周邊景點下載尚未完成..</string>
+    <string name="selection_all_done">選取完成</string>
+    <string name="departure_time">出發時間</string>
+    <string name="arrival_time">抵達時間</string>
+    <string name="detail_information">詳細資訊</string>
+    <string name="none">無</string>
+    <string name="confirm_delete">是否確定刪除「%s」?</string>
+    <string name="rename">重新命名</string>
+    <string name="data_not_exists">查無資料</string>
+    <string name="select_date">請選擇日期</string>
+    <string name="no">否</string>
+    <string name="service_info">客服資訊</string>
+    <string name="service_phone_number">02&#8211;89796205</string>
+    <string name="service_time">07:00 ~ 20:00</string>
+    <string name="login_statement"><u>登入即同意UMAJI會員條款</u></string>
+    <string name="bus_real_time">公車動態</string>
+    <string name="location_collection_statement_title">位置資料收集聲明</string>
+    <string name="location_collection_statement_content">請允許"定位服務"，Umaji將擷取蒐集您旅程中的位置資料並製作統計資料，用於改進Umaji功能與為您提供實用資訊。您可以隨時關閉"定位服務"，中止Umaji擷取蒐集您的位置資料，不過這項操作並不會刪除先前已傳送資料。</string>
+
+    <!-- Location Search -->
+    <string name="location_input_destination">輸入迄點</string>
+    <string name="location_search_any">請輸入關鍵字搜尋任意地點</string>
+    <string name="location_search_found_nothing">無搜尋結果</string>
+
+    <!-- Home Activity -->
+    <string name="button_plan">旅運規劃</string>
+    <string name="button_store">旅遊商城</string>
+    <string name="button_secretary">隨行秘書</string>
+    <string name="button_notification">訊息中心</string>
+
+    <!-- Settings -->
+    <string name="setting_user_profile">會員資料設定</string>
+    <string name="setting_payment">付款設定</string>
+    <string name="setting_remind">提醒設定</string>
+
+    <!-- User Profile -->
+    <string name="get_bonus_by_complete_profile">完成以下會員資料填寫，即贈10點</string>
+    <string name="profile_update_completed">更新完成</string>
+    <string name="profile_name">姓名</string>
+    <string name="profile_email">E-mail</string>
+    <string name="profile_phone">手機</string>
+    <string name="profile_birthday">生日</string>
+    <string name="profile_gender">性別</string>
+    <string name="profile_address">地址</string>
+    <string name="profile_plate_number">車號</string>
+    <string name="profile_marriage">婚姻</string>
+    <string name="profile_children_count">18歲以下\n小孩數量</string>
+    <string name="profile_education">學歷</string>
+    <string name="profile_monthly_income">月收入</string>
+    <string name="profile_id_not_exists">帳號不存在或已失效，請重新註冊。</string>
+    <string name="address_city">(縣市)</string>
+    <string name="address_postal_code">(郵遞區號)</string>
+
+    <string name="gender_male">男</string>
+    <string name="gender_female">女</string>
+
+    <string name="children_count_no">無小孩</string>
+    <string name="children_count_type_1">1 &#8211; 2</string>
+    <string name="children_count_type_2">3 &#8211; 4</string>
+
+    <string name="married">已婚</string>
+    <string name="unmarried">未婚</string>
+
+    <string name="education_junior">國中</string>
+    <string name="education_senior">高中</string>
+    <string name="education_college">大學</string>
+    <string name="education_master">碩士</string>
+    <string name="education_doctor">博士</string>
+
+    <string name="please_select">(請選擇)</string>
+    <string name="input_birthday">輸入生日</string>
+
+    <string name="income_level_1">1&#8211;3(含)萬</string>
+    <string name="income_level_2">3&#8211;5(含)萬</string>
+    <string name="income_level_3">5&#8211;7(含)萬</string>
+    <string name="income_level_4">7&#8211;10(含)萬</string>
+    <string name="income_level_5">10萬以上</string>
+
+    <!-- Travel Plan -->
+    <string name="travel_recommend">達人推薦</string>
+    <string name="travel_customized">自訂行程</string>
+    <string name="travel_create">建立行程</string>
+    <string name="travel_name">行程名稱</string>
+    <string name="travel_name_hint">請輸入行程名稱</string>
+    <string name="travel_date">出發日期</string>
+    <string name="travel_date_is">出發日期：%s</string>
+    <string name="travel_date_hint">選擇出發日期</string>
+    <string name="travel_days">天數</string>
+    <string name="travel_purpose">行程目的</string>
+    <string name="travel_purpose_1">旅遊</string>
+    <string name="travel_purpose_2">通勤</string>
+    <string name="travel_purpose_3">拜訪</string>
+    <string name="travel_number_of_people">總共人數</string>
+    <string name="number_of_people_format">%d 人</string>
+    <string name="number_of_people_above_format">%d 人(含)以上</string>
+    <string name="travel_mine">我的行程</string>
+    <string name="travel_day">DAY</string>
+    <string name="travel_add_poi">新增景點</string>
+    <string name="travel_current_position">目前位置</string>
+    <string name="travel_pick_poi">選擇景點</string>
+    <string name="travel_total_fare">總票價</string>
+    <string name="traffic_time">行駛時間</string>
+    <string name="transit_count">轉乘次數</string>
+    <string name="transit_count_format">%d次</string>
+    <string name="travel_poi_tips">提示：\n● 長按景點列可拖移排序\n● 景點列向左滑可刪除</string>
+    <string name="travel_save_success">行程儲存成功！</string>
+
+    <string name="travel_default_departure_time">08:00</string>
+    <string name="travel_day_header_format">%1$s %2$s</string>
+    <string name="travel_date_format">%1$d年%2$02d月%3$02d日</string>
+    <string name="travel_fare_format">$%d</string>
+    <string name="no_transit_result">無大眾運輸方案</string>
+
+    <string name="transit_my_location">您的位置</string>
+    <string name="transit_walking_duration">步行%1$s (約%2$d分鐘)</string>
+    <string name="transit_headway">每 %d 分一班</string>
+    <string name="transit_stops">%1$s\n行經站數：%2$d站 (%3$d分鐘)</string>
+    <string name="transit_destination">目的地</string>
+    <string name="transit_fare">費用：%s</string>
+
+    <string name="poi_add_option_my_favorite">我的收藏</string>
+    <string name="poi_add_option_from_map">從地圖上點選</string>
+    <string name="poi_add_this_one">加入此景點</string>
+
+    <string name="search_anywhere">搜尋任意地點</string>
+
+    <string name="transit_plans">行程方案</string>
+    <string name="transit_plan_number">方案%d</string>
+    <string name="transit_pass_by">行經%s</string>
+    <string name="transit_vehicle_type_metro">捷運</string>
+    <string name="transit_vehicle_type_bus">公車</string>
+    <string name="transit_vehicle_type_intercity_bus">客運</string>
+    <string name="transit_vehicle_type_train">臺鐵</string>
+    <string name="transit_vehicle_type_hsr">高鐵</string>
+    <string name="transit_vehicle_type_airplane">飛機</string>
+    <string name="transit_vehicle_type_ships">船舶</string>
+    <string name="transit_estimate_time_format">預估時間：%s</string>
+    <string name="transit_start_point">起點</string>
+    <string name="transit_end_point">終點</string>
+    <string name="transit_freeway_suggestion">國道時段建議</string>
+    <string name="freeway_suggest_time">建議時段</string>
+    <string name="freeway_arrival_time">到達時間</string>
+    <string name="freeway_traffic_duration">旅行時間</string>
+    <string name="number_of_format">%1$d / %2$d</string>
+    <string name="transit_suggest_drive_time">%1$s，建議：%2$s出發</string>
+
+    <string name="remind_before_depart">出發前：</string>
+    <string name="remind_condition_one_hour">一小時前</string>
+    <string name="remind_condition_one_day">一天前</string>
+    <string name="remind_condition_three_day">三天前</string>
+    <string name="remind_condition_one_week">七天前</string>
+
+    <string name="transit_freeway_keyword_1">國道</string> <!-- This one, Don't need to translate! -->
+    <string name="transit_freeway_keyword_2">走</string> <!-- This one, Don't need to translate! -->
+    <string name="transit_freeway_keyword_3">沿著</string> <!-- This one, Don't need to translate! -->
+    <string name="transit_freeway_keyword_4">朝</string> <!-- This one, Don't need to translate! -->
+    <string name="transit_freeway_keyword_5">下交流道</string> <!-- This one, Don't need to translate! -->
+
+    <string name="plan_content">行程內容</string>
+    <string name="plan_intro">行程介紹</string>
+    <string name="plan_poi">景點清單</string>
+    <string name="plan_departure_time_is">%s 出發</string>
+    <string name="transit_suggest_mode">建議：%s</string>
+    <string name="transit_stay_duration">停留時間</string>
+
+    <string name="plan_copy">複製行程</string>
+    <string name="plan_select_departure_date">請選擇出發日期</string>
+    <string name="plan_copy_to_mine">複製到我的行程</string>
+    <string name="plan_copy_completed">行程複製完成！請至隨行秘書中查看。</string>
+
+    <string name="transit_bus_forward">去程</string>
+    <string name="transit_bus_backward">回程</string>
+    <string name="bus_not_departure_yet">未發車</string>
+
+    <!-- Distance and Duration -->
+    <string name="duration_minutes">%d\t分</string>
+    <string name="distance_meters">%d\t公尺</string>
+    <string name="distance_kilometer">%s\t公里</string>
+    <string name="distance_after_meters">%s\n公尺後</string>
+    <string name="distance_after_kilometer">%s\n公里後</string>
+    <string name="time_hour_minute">%1$d小時%2$d分</string>
+    <string name="time_minute">%d分</string>
+    <string name="time_hour">%d小時</string>
+
+    <!-- Secretary -->
+    <string name="no_plan_hint">您目前無任何行程</string>
+
+    <!-- Reminding -->
+    <string name="remind">提醒：</string>
+    <string name="remind_switch">提醒開關</string>
+    <string name="remind_turn_off">提醒設定已關閉</string>
+    <string name="remind_updated">提醒設定已更新</string>
+    <string name="remind_travel_title">行程提醒</string>
+    <string name="remind_travel_snippet_days">「%1$s」將在%2$d天後%3$s開始！請到「訂單管理」出示QRCode車票！請到「我的優惠券」查看兌換好禮！</string>
+    <string name="remind_travel_snippet_one_hour">「%s」即將在1小時後開始！請到「訂單管理」出示QRCode車票！請到「我的優惠券」查看兌換好禮！</string>
+    <string name="remind_travel_snippet_week">「%1$s」將在1個禮拜後%2$s開始！請到「訂單管理」出示QRCode車票！請到「我的優惠券」查看兌換好禮！</string>
+
+    <!-- Tickets -->
+    <string name="intercity_bus">國道客運</string>
+    <string name="ticket_subscriber">訂票者</string>
+    <string name="ticket_origin_and_destination">起訖站</string>
+    <string name="ticket_type_and_amount">票種張數</string>
+    <string name="ticket_departure_time">乘車時間</string>
+    <string name="ticket_booking">訂票</string>
+    <string name="ticket_type_price_format">%1$s ($%2$d)</string>
+    <string name="ticket_price_summary">總計：%d元</string>
+    <string name="ticket_summary_format">%1$s %2$d 張</string>
+    <string name="ticket_no_stops_data">無起訖站資料！</string>
+    <string name="ticket_require_type_and_amount">請選擇票種張數</string>
+    <string name="ticket_booking_info">訂票資訊</string>
+    <string name="ticket_booking_success">訂票成功！</string>
+    <string name="ticket_booking_number">訂票編號</string>
+    <string name="ticket_booking_number_is">訂票編號：%s</string>
+    <string name="ticket_transaction_status">交易狀態</string>
+    <string name="ticket_bus_route">路線</string>
+    <string name="ticket_departure_date">乘車日期</string>
+    <string name="ticket_departure_date_is">乘車日期：%s</string>
+    <string name="ticket_amount">票數</string>
+    <string name="ticket_total_price">總票價</string>
+    <string name="ticket_online_payment">線上付款</string>
+    <string name="ticket_bus_company_format">%s乘車券</string>
+    <string name="my_ticket">我的票券</string>
+    <string name="ticket_no_any_order_yet">您目前尚無任何訂單</string>
+    <string name="ticket_price_is">金額：%d</string>
+    <string name="ticket_use_it_immediately">立即使用</string>
+    <string name="ticket_back_to_order_management">回訂單管理</string>
+    <string name="ticket_booking_statement"><u>國道客運訂票須知</u></string>
+    <string name="ticket_ride_date_limitation">限乘車當日顯示QR碼</string>
+    <string name="ticket_times_out">車票QR Code時效已過，\n是否要重新產生?</string>
+
+    <string name="ticket_status_new">未付款</string>
+    <string name="ticket_status_paid">已付款</string>
+    <string name="ticket_status_delivered">已核銷</string>
+
+    <string name="ticket_beta_limitation">百人封測期間，一次限訂一張票。</string>
+
+    <!-- Payments -->
+    <string name="credit_card_add">新增信用卡</string>
+    <string name="credit_card_add_new_one">新增付款信用卡</string>
+    <string name="credit_card_setting">信用卡設定</string>
+    <string name="credit_card_serial_number">信用卡卡號</string>
+    <string name="credit_card_expired_date">信用卡有效日期</string>
+    <string name="payment_select_month">請選擇月</string>
+    <string name="payment_select_year">請選擇年</string>
+    <string name="payment_credit_card_auth_success">卡片授權成功</string>
+    <string name="payment_credit_card_auth_failed">卡片授權失敗</string>
+    <string name="payment_default_credit_card">預設付款信用卡</string>
+    <string name="credit_card_cvc">檢查碼(CVC)</string>
+    <string name="credit_card_already_exists">信用卡已存在！</string>
+    <string name="credit_card_no_such_the_card">無此信用卡資料！</string>
+    <string name="credit_card_need_binds">請先綁定信用卡！</string>
+    <string name="payment_purchase_success">付款完成</string>
+    <string name="credit_card_confirm_to_unbind">是否確定取消綁訂此張信用卡?</string>
+    <string name="credit_card_unbind">取消綁訂</string>
+    <string name="credit_card_unbind_done">取消綁訂完成</string>
+    <string name="credit_card_statement">為確認您的卡片能正常使用，於綁定完成後，系統將自動試刷NT$2，但不會進行扣款，請放心!</string>
+
+    <!-- Coupon -->
+    <string name="coupon_expired_date_is">有效日期：%s</string>
+    <string name="coupon_use_this">使用優惠</string>
+    <string name="coupon_already_used">已使用</string>
+    <string name="coupon_you_have_got_one">您已獲得一張優惠券，請到「我的優惠券」查看。</string>
+    <string name="coupon_got_no_one">您目前尚無任何優惠券</string>
+    <string name="coupon_has_expired">優惠券已過期</string>
+    <string name="coupon_times_out">優惠券QR Code時效已過，\n是否要重新產生?</string>
+    <string name="coupon_recreate_qr_code">重新產生</string>
+    <string name="coupon_exits">回上頁</string>
+
+    <!-- About -->
+    <string name="about_common_questions">常見問題</string>
+    <string name="about_terms_and_privacy_policy_wrap">會員條款和\n隱私權政策</string>
+    <string name="about_terms_and_privacy_policy">會員條款和隱私權政策</string>
+    <string name="about_app_version">軟體版本 v%s</string>
+
+    <!-- Questionnaires -->
+    <string name="questionnaires">問卷調查</string>
+    <string name="done_and_send">完成送出</string>
+    <string name="question_prefix">Q. %s</string>
+    <string name="questionnaire_miss_some">尚有選項未完成</string>
+    <string name="questionnaire_done">問卷填寫完成，感謝您！</string>
+
 </resources>

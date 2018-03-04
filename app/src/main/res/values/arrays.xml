@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="profile_array_1">
+        <item>@string/profile_name</item>
+        <item>@string/profile_email</item>
+        <item>@string/profile_phone</item>
+        <item>@string/profile_birthday</item>
+    </string-array>
+
+    <string-array name="profile_array_2">
+        <item>@string/profile_gender</item>
+        <item>@string/profile_address</item>
+        <item>@string/profile_plate_number</item>
+        <item>@string/profile_children_count</item>
+        <item>@string/profile_education</item>
+        <item>@string/profile_monthly_income</item>
+    </string-array>
+
+    <string-array name="children_count_array">
+        <item>@string/children_count_no</item>
+        <item>@string/children_count_type_1</item>
+        <item>@string/children_count_type_2</item>
+    </string-array>
+
+    <string-array name="education_array">
+        <item>@string/please_select</item>
+        <item>@string/education_junior</item>
+        <item>@string/education_senior</item>
+        <item>@string/education_college</item>
+        <item>@string/education_master</item>
+        <item>@string/education_doctor</item>
+    </string-array>
+
+    <string-array name="income_array">
+        <item>@string/please_select</item>
+        <item>@string/income_level_1</item>
+        <item>@string/income_level_2</item>
+        <item>@string/income_level_3</item>
+        <item>@string/income_level_4</item>
+        <item>@string/income_level_5</item>
+    </string-array>
+
+    <string-array name="travel_purpose">
+        <item>@string/travel_purpose_1</item>
+        <item>@string/travel_purpose_2</item>
+        <item>@string/travel_purpose_3</item>
+    </string-array>
+
+    <string-array name="remind_conditions">
+        <item>@string/none</item>
+        <item>@string/remind_condition_one_hour</item>
+        <item>@string/remind_condition_one_day</item>
+        <item>@string/remind_condition_three_day</item>
+    </string-array>
+    
+    <array name="landscape_photo_array">
+        <item>@drawable/landscape_01</item>
+        <item>@drawable/landscape_02</item>
+        <item>@drawable/landscape_03</item>
+        <item>@drawable/landscape_04</item>
+        <item>@drawable/landscape_05</item>
+        <item>@drawable/landscape_06</item>
+        <item>@drawable/landscape_07</item>
+        <item>@drawable/landscape_08</item>
+        <item>@drawable/landscape_09</item>
+        <item>@drawable/landscape_10</item>
+    </array>
+
+    <array name="leading_page_image_array">
+        <item>@drawable/leading_page_1</item>
+        <item>@drawable/leading_page_2</item>
+        <item>@drawable/leading_page_3</item>
+        <item>@drawable/leading_page_4</item>
+    </array>
+
+</resources>

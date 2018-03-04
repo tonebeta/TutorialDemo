@@ -10,6 +10,8 @@ import android.support.multidex.MultiDexApplication;
 
 public class AppController extends MultiDexApplication {
 
+    private static AppController instance;
+
     @Override
     protected void attachBaseContext(Context base) {
         super.attachBaseContext(base);
@@ -19,5 +21,10 @@ public class AppController extends MultiDexApplication {
     @Override
     public void onCreate() {
         super.onCreate();
+        instance = this;
+    }
+
+    public static synchronized AppController getInstance() {
+        return instance;
     }
 }

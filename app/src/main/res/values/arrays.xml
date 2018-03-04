@@ -53,25 +53,6 @@
         <item>@string/remind_condition_one_day</item>
         <item>@string/remind_condition_three_day</item>
     </string-array>
-    
-    <array name="landscape_photo_array">
-        <item>@drawable/landscape_01</item>
-        <item>@drawable/landscape_02</item>
-        <item>@drawable/landscape_03</item>
-        <item>@drawable/landscape_04</item>
-        <item>@drawable/landscape_05</item>
-        <item>@drawable/landscape_06</item>
-        <item>@drawable/landscape_07</item>
-        <item>@drawable/landscape_08</item>
-        <item>@drawable/landscape_09</item>
-        <item>@drawable/landscape_10</item>
-    </array>
 
-    <array name="leading_page_image_array">
-        <item>@drawable/leading_page_1</item>
-        <item>@drawable/leading_page_2</item>
-        <item>@drawable/leading_page_3</item>
-        <item>@drawable/leading_page_4</item>
-    </array>
 
 </resources>

@@ -1,4 +1,4 @@
-package com.tonebeta.tutorialdemo;
+package com.tonebeta.tutorialdemo.ui.bases;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
